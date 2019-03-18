@@ -1,4 +1,4 @@
-disqus: ## Your disqus_shortname, e.g. username
+disqus: hackdapp ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
@@ -32,15 +32,15 @@ baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: false ## Use a jQuery-based local search engine, true/false.
-google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
-baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+google_analytics: UA-132319949-1 ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: 2224b1682cf112ad6e008fefcc371109
 fancybox: true ## If you want to use fancybox please set the value to true.
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
-wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
-widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+wordcount: true ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
+widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
   color: ## RGB value of the color, e.g. "100,99,98"
@@ -56,17 +56,29 @@ donate:
   btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
 post_copyright:
-  enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: ## Your author name, e.g. tufu9441
-  copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
+  enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
+  author: zhangliang ## Your author name, e.g. tufu9441
+  copyright_text: HackDApp ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
 menu:
   - page: home
     directory: .
     icon: fa-home
+  - page: edusmart
+    directory: edusmart/
+    icon: fa-book
+##  - page: tools
+##    directory: tools/
+##    icon: fa-share-alt
+  - page: weekly
+    directory: weekly/
+    icon: fa-list-alt
   - page: archive
     directory: archives/
-    icon: fa-archive
+    icon: fa-file
+  - page: things
+    directory: things/
+    icon: fa-space-shuttle
   - page: about
     directory: about/
     icon: fa-user
@@ -83,22 +95,24 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 编程随想
+    url: http://program-think.blogspot.com/
+  - title: 知笔墨
+    url: http://zhibimo.com/
+  - title: keyboard
+    url: http://www.typing-lessons.org
+  - title: 阳志平
+    url: https://www.yangzhiping.com/
 
 timeline:
-  - num: 1
-    word: 2014/06/12-Start
-  - num: 2
-    word: 2014/11/29-XXX
-  - num: 3
-    word: 2015/02/18-DDD
-  - num: 4
-    word: More
+  - time: 2019-Now
+    word: 转战更高价值的方向
+  - time: 2018
+    word: 充电一年
+  - time: 2017
+    word: 区块链之年
+  - time: 2016
+    word: 儿子降生
 
 # Static files
 js: js

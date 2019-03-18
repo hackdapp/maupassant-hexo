@@ -6,5 +6,11 @@ block content
     h1.post-title= page.title
     .post-content
       != page.content
-  if page.comments
-    include _partial/comments.pug
+    if page.toc
+      div(class='clear')
+        div(id='toc' class='toc-article')
+          div(class='toc-title')= __('contents')
+          != toc(page.content, {list_number: theme.toc_number})
+//-   if page.comments
+//-     include _partial/comments.pug
+
