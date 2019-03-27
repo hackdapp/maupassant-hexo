@@ -75,16 +75,16 @@ menu:
     icon: fa-list-alt
   - page: archive
     directory: archives/
-    icon: fa-file
+    icon: fa-folder
   - page: things
     directory: things/
     icon: fa-space-shuttle
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  # - page: rss
+  #   directory: atom.xml
+  #   icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
@@ -95,6 +95,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
+  - title: 凯凯刘
+    url: http://liujinkai.com
+  - title: IndieMakers
+    url: https://www.indiemakers.cn/#/
   - title: 编程随想
     url: http://program-think.blogspot.com/
   - title: 知笔墨
