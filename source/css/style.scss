@@ -478,7 +478,7 @@ blockquote,.stressed {
     border-left: none;
 }
 blockquote::before,.stressed-quote::before {
-    content: "\201C";
+    
     display: block;
     font-family: times;
     font-style: normal;
