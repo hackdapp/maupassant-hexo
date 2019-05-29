@@ -3,6 +3,10 @@ uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
+show_ad_post: false
+google_adsense:
+  enable: true
+  ad_id: ca-pub-9094778616568725
 gitment:
   enable: false ## If you want to use Gitment comment system please set the value to true.
   owner: ## Your GitHub ID, e.g. username
@@ -73,15 +77,15 @@ menu:
   - page: weekly
     directory: weekly/
     icon: fa-list-alt
-  - page: archive
-    directory: archives/
-    icon: fa-folder
+  # - page: archive
+  #   directory: archives/
+  #   icon: fa-folder
   - page: things
     directory: things/
     icon: fa-space-shuttle
-  - page: about
-    directory: about/
-    icon: fa-user
+  # - page: about
+  #   directory: about/
+  #   icon: fa-user
   # - page: rss
   #   directory: atom.xml
   #   icon: fa-rss
@@ -99,6 +103,8 @@ links:
     url: http://liujinkai.com
   - title: IndieMakers
     url: https://www.indiemakers.cn/#/
+  - title: 卡片写作
+    url: http://100card.io/
   - title: 编程随想
     url: http://program-think.blogspot.com/
   - title: 知笔墨

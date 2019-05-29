@@ -21,11 +21,13 @@ head
 
     script(type='text/javascript', src='//lib.baomitu.com/jquery/3.3.1/jquery.min.js')
 
-    script(async='', src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-    // Homepage Leaderboard
-    ins.adsbygoogle(style='display:inline-block;width:728px;height:90px', data-ad-client='ca-pub-9094778616568725', data-ad-slot='1234567890', enable_page_level_ads=true)
-    script.
-      (adsbygoogle = window.adsbygoogle || []).push({});
+    if theme.show_ad_post
+      script(async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+      // 页首广告
+      ins.adsbygoogle(style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9094778616568725" data-ad-slot="3766172542")
+      script.
+        (adsbygoogle = window.adsbygoogle || []).push({})
+
 
     link(rel='icon', mask='',sizes='any', href=url_for('favicon.ico'))
     link(rel='Shortcut Icon', type='image/x-icon', href=url_for('favicon.ico'))
