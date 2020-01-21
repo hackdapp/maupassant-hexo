@@ -26,7 +26,7 @@ html(lang=config.language)
         p.description= config.subtitle
       #nav-menu
         - for (var i in theme.menu)
-          +a_with_current(theme.menu[i].directory, __(theme.menu[i].page), theme.menu[i].icon)
+          +a_with_current(theme.menu[i].directory, __(theme.menu[i].page), theme.menu[i].icon, theme.menu[i].target)
 
     script(async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
     // home
